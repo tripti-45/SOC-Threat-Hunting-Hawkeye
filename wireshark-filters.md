@@ -9,14 +9,6 @@ ip.addr == 10.4.10.132
 # Identify victim hostname using DHCP hostname field
 ip.addr == 10.4.10.132 && dhcp
 
-# Find all HTTP activity (malware download, IP lookup)
-http
-
-# Find all SMTP activity (credential exfiltration)
-smtp
-
-# Monitor all DNS queries (C2 domain resolution)
-dns
 ```
 
 ## Key Menu Paths
@@ -43,6 +35,5 @@ Output : roman.mcguire@macwinlogistics.in
 
 ## Hash Lookup
 
-1. Export the malicious `.exe` via `File → Export Objects → HTTP`
-2. Calculate MD5: `md5sum filename.exe` (Linux/Mac) or use HashCalc (Windows)
-3. Submit to https://www.virustotal.com for threat intel
+1. Calculate MD5: `md5sum filename.exe` (Linux/Mac) or use HashCalc (Windows)
+2. Submit to https://www.virustotal.com for threat intel
