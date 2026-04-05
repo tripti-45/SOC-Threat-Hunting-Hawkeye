@@ -1,15 +1,10 @@
-# 🔍 Network Forensics Investigation: Credential Theft via HawkEye Keylogger
-
-![Domain](https://img.shields.io/badge/Domain-Digital%20Forensics%20%26%20Incident%20Response-blue?style=for-the-badge)
-![Type](https://img.shields.io/badge/Type-PCAP%20Analysis-orange?style=for-the-badge)
-![Tools](https://img.shields.io/badge/Tools-Wireshark%20%7C%20CyberChef%20%7C%20VirusTotal-green?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
+# SOC-Threat-hunting investigation - cyberdefender hawkeye lab training.
 
 ---
 
 ## 📌 Project Overview
 
-This project documents a full **network forensic investigation** into a credential-theft incident caused by the **HawkEye Keylogger (Reborn v9)** malware. 
+This project documents a full **SOC-investigation** into a credential-theft incident caused by the **HawkEye Keylogger (Reborn v9)** malware. 
 
 Using a captured network traffic file (`.pcap`), I reconstructed the entire attack lifecycle — from initial phishing delivery to data exfiltration — using industry-standard blue team tools. The goal was to identify all **Indicators of Compromise (IoCs)**, trace the attacker's infrastructure, and extract stolen credentials transmitted over the network.
 
@@ -35,8 +30,6 @@ This type of analysis is performed daily by **SOC Analysts, Threat Hunters, and 
 | **NetworkMiner** | Passive traffic analysis, automatic file & credential extraction |
 | **CyberChef** | Decoding Base64-encoded SMTP authentication strings |
 | **VirusTotal** | File hash lookup, threat intelligence, AV detection |
-| **MaxMind GeoIP** | Geolocation of C2 server IP addresses |
-| **any.run** | Dynamic malware sandbox analysis |
 
 ---
 
@@ -48,7 +41,6 @@ This type of analysis is performed daily by **SOC Analysts, Threat Hunters, and 
 - **File Carving** — Extracting malicious executables from HTTP streams
 - **Threat Intelligence** — Hash-based malware identification via VirusTotal
 - **IoC Documentation** — Structured incident reporting of findings
-- **Geolocation Analysis** — Mapping attacker infrastructure to physical locations
 
 ---
 
@@ -166,7 +158,7 @@ dns
 
 ---
 
-## 📝 Forensic Summary
+## 📝 Soc Investigation Summary
 
 The malware was delivered via a spear-phishing email targeting an accountant with a fake invoice. Once executed, the **HawkEye Keylogger Reborn v9** silently harvested saved credentials from the Chrome browser and sent them to the attacker every 10 minutes via SMTP. The stolen data included banking credentials for Bank of America.
 
@@ -180,15 +172,14 @@ The entire attack — from initial compromise to repeated data exfiltration — 
 2. **EDR/AV** — Endpoint detection would catch `tkraw_Protected99.exe` on execution
 3. **SMTP monitoring** — Alert on outbound SMTP to unusual domains
 4. **DNS monitoring** — Block/alert on newly registered domains like `macwinlogistics.in`
-5. **Browser hardening** — Disable saved passwords in browsers on corporate machines
-6. **User awareness training** — Educate staff on invoice phishing tactics
+5. **Browser hardening** — Disable saved passwords in browsers on corporate machines.
 
 ---
 
 ## 👤 About Me
 
-**[Your Name]**  
-Aspiring SOC Analyst | Blue Team | DFIR Enthusiast  
+** Tripti Pal **  
+Aspiring SOC Analyst | Blue Team |CyberSecurity Enthusiast  
 Passionate about threat detection, network forensics, and incident response.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/yourprofile)
