@@ -1,4 +1,4 @@
-# SOC-Threat-hunting investigation - cyberdefender hawkeye lab training.
+# SOC-Threat-hunting investigation.
 
 ---
 
