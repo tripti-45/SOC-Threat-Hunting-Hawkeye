@@ -1,10 +1,10 @@
 # 📋 Forensic Investigation Report
 
-**Case Title:** Credential Theft via Keylogger Malware — Network Traffic Analysis  
+**Case Title:** Network Traffic Analysis  
 **Investigation Type:** Digital Forensics & Incident Response (DFIR)  
 **Evidence Type:** Network Packet Capture (PCAP)  
-**Analyst:** [Your Name]  
-**Date:** April 2025  
+**Analyst:** Tripti Pal
+**Date:** April 2024  
 
 ---
 
@@ -12,7 +12,7 @@
 
 A network traffic capture was analyzed to investigate a suspected credential theft incident. The investigation confirmed that a machine (`BEIJING-5CD1-PC`, IP: `10.4.10.132`) was compromised via a phishing email leading to the download and execution of the **HawkEye Keylogger – Reborn v9** malware.
 
-The malware silently harvested browser-stored credentials and transmitted them to an attacker-controlled SMTP server (`macwinlogistics.in`) every 10 minutes. Stolen credentials included banking login details for Bank of America.
+The malware silently stored credentials and transmitted them to an attacker-controlled SMTP server (`macwinlogistics.in`) every 10 minutes. Stolen credentials included banking login details for Bank of America.
 
 ---
 
@@ -31,7 +31,7 @@ The malware silently harvested browser-stored credentials and transmitted them t
 ## 3. Phase 1 — Initial Compromise (Phishing & Download)
 
 ### 3.1 Phishing Delivery
-The accountant received a phishing email with an embedded download link disguised as an invoice. This is a common **Business Email Compromise (BEC)** tactic targeting finance staff.
+The accountant received a phishing email with an embedded download link disguised as an invoice.
 
 ### 3.2 Malware Download
 Filtering HTTP traffic in Wireshark revealed a GET request to a malicious domain. The downloaded executable was:
@@ -42,7 +42,7 @@ Protocol : HTTP
 Method   : GET
 ```
 
-The file was exported from the PCAP via `File → Export Objects → HTTP` and its hash was submitted to VirusTotal, which confirmed:
+The file was exported from the PCAP and its hash was submitted to VirusTotal, which confirmed:
 
 ```
 Detection : Spyware.HawkEyeKeyLogger (Malwarebytes)
@@ -151,17 +151,4 @@ See [iocs/iocs.md](../iocs/iocs.md) for the complete IoC table.
 
 ---
 
-## 9. Defensive Recommendations
-
-| Priority | Recommendation |
-|----------|---------------|
-| HIGH | Block outbound SMTP to non-approved mail servers |
-| HIGH | Enable email gateway filtering for executable attachments/links |
-| HIGH | Deploy EDR to detect keylogger behavior |
-| MEDIUM | Implement DNS monitoring / threat intel feed blocking |
-| MEDIUM | Disable saved password storage in browsers (GPO) |
-| LOW | User security awareness training (phishing simulations) |
-
----
-
-*Report prepared by [Your Name] | [Date]*
+*Report prepared by [Tripti pal]*
