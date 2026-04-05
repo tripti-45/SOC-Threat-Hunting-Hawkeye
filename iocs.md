@@ -4,8 +4,8 @@
 
 | Indicator | Type | Description |
 |-----------|------|-------------|
-| `23.229.162.69` | IP Address | C2 Server — United States |
-| `macwinlogistics.in` | Domain | C2 / SMTP Exfiltration Server |
+| `23.229.162.69` | IP Address | C2 Server |
+| `macwinlogistics.in` | Domain | SMTP Exfiltration Server |
 | `bot.whatismyipaddress.com` | Domain | Post-infection IP Lookup |
 | `proforma-invoices.com` | Domain | Malware Delivery Domain |
 
@@ -13,7 +13,7 @@
 
 | Indicator | Type | Description |
 |-----------|------|-------------|
-| `tkraw_Protected99.exe` | Filename | HawkEye dropper/stealer binary |
+| `tkraw_Protected99.exe` | Filename | malicious file |
 | `BEIJING-5CD1-PC` | Hostname | Compromised victim machine |
 | `10.4.10.132` | Internal IP | Victim machine |
 | `00:08:02:1c:47:ae` | MAC Address | Victim NIC |
