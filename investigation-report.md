@@ -147,8 +147,8 @@ File     : C:\Users\roman.mcguire\AppData\Local\Google\Chrome\User Data\Default\
 
 ## 8. Indicators of Compromise (Full List)
 
-See [iocs/iocs.md](../iocs/iocs.md) for the complete IoC table.
+See [iocs.md](..iocs.md) for the complete IoC table.
 
 ---
 
-*Report prepared by [Tripti pal]*
+*Report prepared by Tripti pal*
