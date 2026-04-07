@@ -36,7 +36,6 @@ This type of analysis is performed daily by **SOC Analysts, Threat Hunters, and 
 ## 🔬 Technical Skills Demonstrated
 
 - **Protocol Analysis** — TCP, DNS, HTTP, SMTP dissection at packet level
-- **Malware Traffic Analysis** — Identifying C2 communication patterns
 - **Credential Extraction** — Recovering Base64-encoded credentials from SMTP streams
 - **File Carving** — Extracting malicious executables from HTTP streams
 - **Threat Intelligence** — Hash-based malware identification via VirusTotal
@@ -132,8 +131,6 @@ This type of analysis is performed daily by **SOC Analysts, Threat Hunters, and 
 | Capture Start | 2019-04-10 20:37:07 UTC |
 | Capture End | 2019-04-10 21:40:48 UTC |
 | Total Duration | 1 hour, 3 minutes, 41 seconds |
-| Most Active Host (Layer 2) | `00:08:02:1c:47:ae` |
-| Most Active Host (Layer 3) | `10.4.10.132` |
 
 ---
 
@@ -182,8 +179,8 @@ The entire attack — from initial compromise to repeated data exfiltration — 
 Aspiring SOC Analyst | Blue Team |CyberSecurity Enthusiast  
 Passionate about threat detection, network forensics, and incident response.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/yourprofile)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat-square&logo=github)](https://github.com/yourusername)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/tripti-pal-)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat-square&logo=github)](https://github.com/tripti-45)
 
 ---
 
