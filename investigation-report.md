@@ -147,7 +147,7 @@ File     : C:\Users\roman.mcguire\AppData\Local\Google\Chrome\User Data\Default\
 
 ## 8. Indicators of Compromise (Full List)
 
-See [iocs.md](..iocs.md) for the complete IoC table.
+See https://github.com/tripti-45/Network-Forensics-Hawkeye/blob/main/iocs.md for the complete IoC table.
 
 ---
 
