@@ -1,4 +1,4 @@
-# SOC-Network-Analysis investigation.
+# SOC-Network-Forensics Investigation.
 
 ---
 
