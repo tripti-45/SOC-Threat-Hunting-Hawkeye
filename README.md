@@ -150,8 +150,15 @@ smtp
 
 # DNS C2 resolution
 dns
+
 ```
 
+## 🧠 MITRE ATT&CK Mapping
+- Initial Access: Phishing
+- Execution: Malicious file download
+- Command & Control: External communication
+- Exfiltration: Data transfer via HTTP
+  
 ---
 
 ## 📝 Soc Investigation Summary
