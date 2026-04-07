@@ -1,4 +1,4 @@
-# SOC-Threat-hunting investigation.
+# SOC-Network-Analysis investigation.
 
 ---
 
