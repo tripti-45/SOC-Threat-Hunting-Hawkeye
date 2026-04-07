@@ -13,3 +13,5 @@ All screenshots taken during the forensic analysis of the network capture.
 | `user-pass.png` | SMTP AUTH LOGIN with Base64 encoded credentials |
 | `pass(cyberchef)-decode.png` | CyberChef decoding SMTP credentials to plaintext |
 
+Evidence from the investigation
+
