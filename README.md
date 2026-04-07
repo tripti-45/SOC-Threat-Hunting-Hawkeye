@@ -53,7 +53,6 @@ This type of analysis is performed daily by **SOC Analysts, Threat Hunters, and 
 │   └── iocs.md                     → Indicators of Compromise (IoCs)
 ├── 📁 analysis/
 │   ├── attack-timeline.md          → Reconstructed attack timeline
-│   └── protocol-analysis.md        → Protocol-by-protocol breakdown
 ├── 📁 tools-used/
 │   └── wireshark-filters.md        → All filters and techniques used
 └── 📁 screenshots/
