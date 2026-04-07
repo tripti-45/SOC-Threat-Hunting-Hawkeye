@@ -175,7 +175,7 @@ The entire attack — from initial compromise to repeated data exfiltration — 
 
 ## 👤 About Me
 
-** Tripti Pal **  
+**Tripti Pal**  
 Aspiring SOC Analyst | Blue Team |CyberSecurity Enthusiast  
 Passionate about threat detection, network forensics, and incident response.
 
